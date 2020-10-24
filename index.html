@@ -1,0 +1,81 @@
+<Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link id = "css-link" type="text/css" rel = "stylesheet" href = "css/main.css"/>
+    <script src="https://kit.fontawesome.com/83d4dedb1b.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Keeper</title>
+
+</head>
+    
+<body>
+    <div id = "container">
+        <div id = "top-section">
+            <div id = "title">BUDGET October 22, 2020</div>
+            <div id = "budget-value">0</div>
+            <div id = "inc-value">
+                <div class = "left">INCOME</div>
+                <div id = "total-income" class = "right" style = "color: white;">0</div>
+            </div>
+            <div id = "exp-value">
+                <div class = "left">EXPENSE</div>
+                <div id = "total-expense" class = "right" style = "color: white;">0</div>
+            </div>
+        </div>
+        
+        
+        <div id = "middle-section">
+            <select id = "type">
+                <option name = "inc">+</option>
+                <option name = "exp">-</option>
+            </select>
+            
+            <input placeholder = "Item Description" type="text" id = "description">
+            <input placeholder = "Value" type="number" id = "value">
+            <button title = "Add item" id = "post"><i class="far fa-check-circle" style = 'font-size: x-large'></i></button>                        
+        </div>
+        
+        
+        <div id = "bottom-section">
+            <div id = "income">
+                <div class = "header h-inc">INCOME</div>
+                <div id = "add-inc" class = "inc-items sep"></div>
+                
+                <!--div class = "inc-items" id = "income-0">
+                    <div class = "item-desc left">Salary</div>
+                    <div class = "inc-value right">+ 2,500 <i class="far fa-times-circle" style = "font-size: small"></i></div>
+                </div-->
+                
+            </div>
+            <div id = "expense">
+                <div class = "header h-exp">EXPENSES</div>
+                <div id = "add-exp" class = "inc-items sep"></div>
+                
+                <!--div  class = "exp-items" id = "expense-0">
+                    <div class = "item-desc left">Groceriers</div>
+                    <div class = "exp-value right">- 3,000 
+                        <span class = "percentages">20%</span>
+                        <i class="far fa-times-circle" style = "font-size: small"></i>
+                    </div>
+                </div-->                
+                
+            </div>            
+        </div>
+    </div>
+
+    <script type = "text/javascript" src = "js/main.js"></script>
+</body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
