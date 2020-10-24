@@ -31,7 +31,7 @@
                 <option name = "exp">-</option>
             </select>
             
-            <input placeholder = "Item Description" type="text" id = "description">
+            <input list="suggs" placeholder = "Item Description" type="text" id = "description">
             <input placeholder = "Value" type="number" id = "value">
             <button title = "Add item" id = "post"><i class="far fa-check-circle" style = 'font-size: x-large'></i></button>                        
         </div>
@@ -63,6 +63,18 @@
             </div>            
         </div>
     </div>
+    
+    <datalist id = "suggs">
+        <option>Food</option>
+        <option>Salary</option>
+        <option>Rents</option>
+        <option>Sales</option>
+        <option>Purchases</option>
+        <option>Office Expenses</option>
+        <option>Repairs</option>
+        <option>Subsides</option>
+        <option>Income Tax</option>
+    </datalist>
 
     <script type = "text/javascript" src = "js/main.js"></script>
 </body>
